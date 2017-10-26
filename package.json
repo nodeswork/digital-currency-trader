@@ -1,5 +1,5 @@
 {
-  "name": "@nodeswork/digital-currency-trader",
+  "name": "digital-currency-trader",
   "version": "0.0.2",
   "description": "Digital currency trader",
   "main": "dist/index.js",
