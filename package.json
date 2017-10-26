@@ -1,0 +1,33 @@
+{
+  "name": "@nodeswork/digital-currency-trader",
+  "version": "0.0.1",
+  "description": "Digital currency trader",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist/ && ./node_modules/.bin/gulp",
+    "prepublish": "npm run build",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeswork/digital-currency-trader.git"
+  },
+  "author": "andy@nodeswork.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeswork/digital-currency-trader/issues"
+  },
+  "homepage": "https://github.com/nodeswork/digital-currency-trader#readme",
+  "dependencies": {
+    "@nodeswork/applet": "0.0.62"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "source-map-support": "^0.5.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
