@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/nodeswork/digital-currency-trader#readme",
   "dependencies": {
-    "@nodeswork/applet": "0.0.62"
+    "@nodeswork/applet": "0.0.63"
   },
   "devDependencies": {
     "@types/node": "^8.0.47",
